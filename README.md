@@ -36,9 +36,13 @@ Together, these libraries form a robust toolkit for data manipulation, visualiza
 Process Steps:
 
 a) Text Preprocessing: Converts text to lowercase, removes URLs, HTML tags, punctuation, numbers, and stopwords.
+
 b) Tokenization: Splits cleaned text into individual words.
+
 c) Feature Extraction: Utilizes the VADER sentiment analyzer to extract positive, negative, and neutral sentiment scores for each tweet.
+
 d) Sentiment Classification: Assigns an overall sentiment label based on the aggregated scores.
+
 e) Post Processing: Prioritizes negative tweets with the “Priority Tweets” section, focusing on influential accounts.
 
 Priority Tweets Section:
